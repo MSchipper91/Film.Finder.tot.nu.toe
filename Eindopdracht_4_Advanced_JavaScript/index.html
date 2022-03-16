@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Movie Finder</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script defer src="js/movies.js"></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="images/header-img.jpg" class="header-img" alt="Header Image" />
+      <h1 class="header-title">Film Finder</h1>
+    </header>
+
+    <nav class="navbar">
+
+        <label class="radio">
+          <input
+            checked="checked"
+            type="radio"
+            id="all-movies"
+            name="filter-list"
+            value="all-movies"
+          /> All Movies
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="radio">
+          <input
+            type="radio"
+            id="new-movies"
+            name="filter-list"
+            value="new-movies"
+          /> New Movies
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="radio">        
+          <input
+            type="radio"
+            id="avenger-movies"
+            name="filter-list"
+            value="avenger-movies"
+          />Avenger Movies
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="radio">
+          <input
+            type="radio"
+            id="xmen-movies"
+            name="filter-list"
+            value="xmen-movies"
+          /> X-men Movies
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="radio">
+          <input
+            type="radio"
+            id="princess-movies"
+            name="filter-list"
+            value="princess-movies"
+          /> Princess Movies
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="radio">
+          <input
+            type="radio"
+            id="batman-movies"
+            name="filter-list"
+            value="batman-movies"
+          /> Batman Movies
+          <span class="checkmark"></span>
+        </label>
+    </nav>
+
+    <main>
+      <ul id="movie-list"></ul>
+    </main>
+
+    <footer>
+      <p class="footer-text">© Mel Schipper 2022</p>
+    </footer>
+
+    
+  </body>
+</html>
